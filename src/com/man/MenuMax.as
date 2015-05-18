@@ -10,6 +10,22 @@
 	/**
 	 * 菜单切换效果,需要和fla配合。
 	 * @author maning
+	
+		import com.man.MenuMax;
+		var menus = new MenuMax();
+		menus.init(nav,setStyle,onSelect);
+		function setStyle(mc: MovieClip, b: Boolean): void {
+			if (b) {
+				//trace(mc.name)
+				mc.gotoAndStop(2);
+			} else {
+				mc.gotoAndStop(1);
+			}
+		}	
+		function onSelect(e:MouseEvent):void{
+			trace(e.target.data);
+		}
+	
 	 */
 	public class MenuMax extends MovieClip
 	{
