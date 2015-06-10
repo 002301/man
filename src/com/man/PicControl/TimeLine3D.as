@@ -1,5 +1,7 @@
 package com.man.PicControl
 {
+	import com.man.picControl.PicControl;
+	import com.man.picControl.TimeLine3D;
 	import flash.display.MovieClip;
 	import com.greensock.TweenMax;
 	import flash.events.Event;

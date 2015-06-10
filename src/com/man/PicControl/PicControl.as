@@ -1,5 +1,6 @@
 package com.man.PicControl
 {
+	import com.man.picControl.PicControl;
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	import flash.events.Event;

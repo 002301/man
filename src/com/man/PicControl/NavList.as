@@ -2,6 +2,8 @@ package com.man.PicControl
 {
 	import com.greensock.easing.Strong;
 	import com.greensock.TweenMax;
+	import com.man.picControl.NavList;
+	import com.man.picControl.PicControl;
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	/**
