@@ -4,18 +4,21 @@
 	import flash.geom.Rectangle;
 	
 	/**
-	 * 设置影片剪辑左右视差效果
-	 
+	 * 让影片剪辑在一个区域内随机运动
+	 * 
+	 var ar = new Parallax(this);
+	 ar.vy = 2;
+	 ar.vx = 4;
 	 
 	 * @author maning
 	 */
-	public class AutoRun 
+	public class RandomMc 
 	{
 		var _boundary:Rectangle;
 		var cont:MovieClip;
 		var _vx:Number = 0.5
 		var _vy:Number=0.2;
-		public function AutoRun(c:MovieClip):void {
+		public function RandomMc(c:MovieClip):void {
 			cont = c;
 			_boundary = new Rectangle( cont.x-25, cont.y-25, 100, 20);
 		}

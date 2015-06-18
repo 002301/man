@@ -16,7 +16,7 @@
 		}
 		//获取URL地址栏里面的变量值 v
 		
-		public function geturlhttp(v:String):int {
+		public static function geturlhttp(v:String):int {
 			urlPath = ExternalInterface.call("window.location.href.toString");
 			if (urlPath != null) {
 				var propertNum:int = urlPath.search("html");//查找URL里面的html字符串
